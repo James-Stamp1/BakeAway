@@ -1,0 +1,161 @@
+
+body {
+  margin: 30px;
+  font-family: "Lexend Mega", sans-serif;
+}
+
+
+.header {
+	background-color: darkgreen;
+	color: goldenrod;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 5px solid goldenrod;
+}
+
+.header h1 {
+	font-size: 3.5em;
+  border: solid 1px  darkgreen;
+  padding: 20px;
+  color: darkgreen;
+  background-color: goldenrod;
+  border-radius: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 10%;
+}
+
+.navbar p {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: goldenrod;
+	
+  font-size: 1.5em;
+}
+
+.navbar p {
+  border: 1px solid goldenrod;
+  border-radius: 5px;
+}
+
+ a:hover {
+  background-color: goldenrod;
+  color: darkgreen;
+}
+
+  .main {
+    padding-top: 35px;
+    opacity: 0.9;
+  }
+  
+    .mission {
+    display: flex;
+    height: 300px;
+	  width: 100%;
+    background-image: url("./NewPics/banner.jpg");
+    padding-top: 35px;
+	background-repeat: repeat;
+	background-position: center center;
+	
+  }
+  
+    .mission .content {
+    margin: auto;
+    background-color: goldenrod;
+	  color: darkgreen;
+    width: 100%;
+	  text-align: center;
+  }
+  
+    #portfolio {
+    min-height: 500px;
+    margin: auto;
+	  margin-top: 30px;
+    padding-top: 50px;
+	  text-align: center;
+	  background-color: darkgreen;
+	  color: goldenrod;
+  }
+  
+  #portfolio a {
+  color: red}
+  
+    .companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+    .company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	flex-direction: column;
+  }
+  
+    .company img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: 150px;
+  }
+  
+    .company span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .catering {
+    display: flex;
+    height: 400px;
+	  width: 100%;
+    background-image: url("./NewPics/catering.jpg");
+    padding-top: 35px;
+	background-repeat: no-repeat;
+	background-position: center center;
+  margin-top: 30px;
+  text-align: center;
+  }
+
+   
+  .catering .content {
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+	  color: darkgreen;
+    width: 50%;
+	  text-align: center;
+  }
+
+  .caterex {
+    margin-top: 30px;
+    padding: 30px;
+    padding-bottom: 50px;
+    background-color: goldenrod;
+    color: darkgreen;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .caterex a {
+    text-decoration: none;
+    color: red;
+  }
+
+  .footer {
+    margin-top: 30px;
+  line-height: 200%;
+  color: darkgreen;
+  }

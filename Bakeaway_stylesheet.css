@@ -1,4 +1,3 @@
-
 body {
   margin: 30px;
   font-family: "Lexend Mega", sans-serif;
@@ -56,7 +55,7 @@ body {
     opacity: 0.9;
   }
   
-    .mission {
+    .sub-head {
     display: flex;
     height: 300px;
 	  width: 100%;
@@ -67,7 +66,7 @@ body {
 	
   }
   
-    .mission .content {
+    .sub-head .content {
     margin: auto;
     background-color: goldenrod;
 	  color: darkgreen;
